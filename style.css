@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    margin-top: 20px;
+    text-align: center;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: red;
+    display: inline-block;
+    font-size: 25px;
+
+}
+
+.answer {
+    margin-top: 10px;
+    margin: 10px 20px 0px 200px;
+    background-color: darkgrey;
+    font-size: 20px;
+
+}
+
+li {
+    margin-top: 10px;
+    margin: 10px 20px 0px 200px;
+    font-size: 25px;
+    color: darkblue;
+}
+
+/* Transform: translate */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.translate {
+    border: 2px solid black;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+
+
+}
+
+.trns_box1 {
+    background-color: darkgreen;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: inline-block;
+
+
+}
+
+.trns_box2 {
+    background-color: darkgreen;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: inline-block;
+    transform: translate(50px, 60px);
+
+}
+
+/* hover efect */
+.trns_box3 {
+    background-color: darkgreen;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: inline-block;
+    transition: .5s;
+
+}
+
+.trns_box3:hover {
+    transform: translate(50px, 60px);
+}
+
+
+/* Transform: rotate */
+
+.rotate {
+    border: 2px solid black;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+
+
+.rotate_box1 {
+    background-color: orangered;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: inline-block;
+
+
+}
+
+.rotate_box2 {
+    background-color: orangered;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-left: 40px;
+    display: inline-block;
+    transform: rotate(60deg);
+
+}
+
+/* hover efect */
+.rotate_box3 {
+    background-color: orangered;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-left: 40px;
+    display: inline-block;
+    transition: .5s;
+
+
+}
+
+.rotate_box3:hover {
+    transform: rotate(60deg);
+}
+
+
+
+
+/* Transform: skew */
+.skew {
+    border: 2px solid black;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+
+
+.skew_box1 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: inline-block;
+
+
+}
+
+.skew_box2 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-left: 40px;
+    display: inline-block;
+    transform: skew(30deg, 30deg);
+
+}
+
+/* hover efect */
+.skew_box3 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-left: 40px;
+    display: inline-block;
+    transition: .5s;
+
+
+}
+
+.skew_box3:hover {
+    transform: skew(30deg, 30deg);
+}
+
+
+/* Transform: scale */
+.scale {
+    border: 2px solid black;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+
+
+.scale_box1 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: inline-block;
+
+
+}
+
+.scale_box2 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-left: 40px;
+    display: inline-block;
+    transform: scale(1.5);
+
+}
+
+/* hover efect */
+.scale_box3 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-left: 40px;
+    display: inline-block;
+    transition: .5s;
+
+
+}
+
+.scale_box3:hover {
+    transform: scale(1.5);
+}
+
+/* CSS Transform Efect an Image */
+.img_wrapper {
+    margin-top: 20px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid red;
+    padding: 50px;
+}
+
+.img_wrapper img {
+    margin-top: 20px;
+    max-width: 100%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.img_wrapper img:hover {
+    transform: rotate(360deg);
+}
